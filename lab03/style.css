@@ -23,11 +23,6 @@ a {
 }
 
 /* Class Selector */
-.highlight {
-    background-color: #ffefc4;
-    padding: 10px;
-    border-radius: 5px;
-    font-weight: bold;
-    color: #333;
+#top {
+    background-color: #0047ab;
 }
-
