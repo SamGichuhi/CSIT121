@@ -1,0 +1,33 @@
+/* Body Styling */
+body {
+    background-color: #f0f8ff;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Headings ID*/
+h1 {
+    color: #0047ab;
+    text-align: center;
+}
+
+/* Paragraphs */
+p {
+    color: #555;
+}
+
+/* Links */
+a {
+    color: #ff4b15;
+    text-decoration: none;
+}
+
+/* Class Selector */
+.highlight {
+    background-color: #ffefc4;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
