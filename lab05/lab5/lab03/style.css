@@ -1,0 +1,38 @@
+/* Body Styling */
+body {
+    background-color: #f0f8ff;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Headings ID*/
+h1 {
+    color: #0047ab;
+    text-align: center;
+}
+
+/* Paragraphs */
+p {
+    color: #000000;
+}
+
+/* Links */
+a {
+    color: #ff4b15;
+}
+
+/* Class Selector */
+#top {
+    background-color: #0047ab;
+}
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
