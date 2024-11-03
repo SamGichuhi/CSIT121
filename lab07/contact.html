@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Tier List</a>
+        <a href="contact.html">Contact Form</a>
+    </nav>
+
+    <h1>Contact</h1>
+
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="character">Favorite Character on the Tier List:</label>
+        <input type="text" id="character" name="character">
+
+        <label for="opinion">Do you agree with the rankings?</label>
+        <select id="opinion" name="opinion">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+            <option value="partially">Kinda</option>
+        </select>
+
+        <label for="comments">Additional Comments:</label>
+        <textarea id="comments" name="comments"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
