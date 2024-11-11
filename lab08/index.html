@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="css/style.css"> 
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a> 
+        <a href="webp.html">WEBP Example</a>
+        <a href="gif.html" class="active">GIF Example</a>
+        <a href="png.html">PNG Example</a>
+    </div>
+    <button class="openbtn" onclick="openNav()">&#9776; Menu</button>
+    <section>
+        <h2>Image Formats Examples</h2>
+        <img src="images/Dbz.webp" alt="WEBP Example"> 
+        <img src="images/Zlogo.png" alt="PNG Example">
+        <img src="images/super.gif" alt="GIF Example">
+    </section>
+    <p>the source for the backgorund <a href="https://wall.alphacoders.com/big.php?i=677261" target="dragon">wall.alphacoders.com</a></p>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    </body>
+</html>
